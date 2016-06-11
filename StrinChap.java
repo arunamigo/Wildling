@@ -42,6 +42,14 @@ public class StrinChap{
 			multiDim2[row][col]=row+col;
 			System.out.print(multiDim2[row][col]+ "\t" );
 		}System.out.println();
-	}
+		}
+
+		//Using ForEach
+		for (int[] u:multiDim2) {
+			for (int o: u) {
+				System.out.println(o);
+			}System.out.println();
+			
+		}
 	}
 }
