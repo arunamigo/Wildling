@@ -32,5 +32,14 @@ public class AList{
 	}
 	System.out.println("Created as String Array");
 
+	//Converting from Array to List (backed List)
+
+	String[] strArray= {"Arun", "Valar","Divakar","Shreya"};
+	List<String> slist = Arrays.asList(strArray);
+
+	
+	System.out.println(slist);
+
+
 	}
 }
