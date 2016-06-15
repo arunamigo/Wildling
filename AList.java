@@ -19,6 +19,7 @@ public class AList{
 	List<String> colist = new ArrayList<>();
 	colist.add("42");
 	colist.add("16");
+	// colist.add(27);  //In Generics only same type can be used
 	System.out.println(colist);
 
 	Object[] objArray = colist.toArray(); //Defaultly converts ArrayList to Array of type Objects
@@ -37,8 +38,8 @@ public class AList{
 	String[] strArray= {"Arun", "Valar","Divakar","Shreya"};
 	List<String> slist = Arrays.asList(strArray);
 
-	
-	System.out.println(slist);
+
+	System.out.println(slist); // String Array is converted to List<String>
 
 
 	}
