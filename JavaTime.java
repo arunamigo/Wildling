@@ -1,4 +1,5 @@
 import java.time.*;
+import java.time.format.*;
 
 public class JavaTime{
 
@@ -18,5 +19,11 @@ public class JavaTime{
 		date = date.plusDays(18);
 		System.out.println("Added 18 days");
 		System.out.println(date);
+		System.out.println("-------------------------");
+
+		LocalDate d =LocalDate.parse("2014-6-21",DateTimeFormatter.ISO_LOCAL_DATE);
+		System.out.println(d);
+
+
 	}
 }
