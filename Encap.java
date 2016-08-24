@@ -1,4 +1,3 @@
-package pond.ducks;
 
 public class Encap{
 	
