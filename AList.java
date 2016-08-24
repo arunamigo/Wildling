@@ -4,6 +4,8 @@ public class AList{
 		ArrayList  list1 =  new ArrayList ();
 		list1.add("Hello");
 		list1.add(Boolean.TRUE);
+		list1.add(4);
+		list1.add(false);
 
 		System.out.println(list1);
 
