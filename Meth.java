@@ -14,5 +14,10 @@ public class Meth{
 		
 		System.out.println("Calling Method with Param");
 		Meth2(5);
+	
+		Meth m = new Meth();
+		System.out.println( m.hashCode() );
+
+
 	}
 }
