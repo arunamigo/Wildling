@@ -25,5 +25,15 @@ public class Comp {
 
 		System.out.println( 0 == 0.0 ); //True
 
+		double df = Double.NaN;
+		System.out.println(df == df); //False Always
+
+		float f = 7.8f;
+		System.out.println(f);
 	}
+}
+
+abstract class Abs{
+	// void honk();  //Abstract keyword must be present if method doesn't have a body.
+
 }
