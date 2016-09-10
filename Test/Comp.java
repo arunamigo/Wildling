@@ -33,7 +33,3 @@ public class Comp {
 	}
 }
 
-abstract class Abs{
-	// void honk();  //Abstract keyword must be present if method doesn't have a body.
-
-}
