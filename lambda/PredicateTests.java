@@ -37,8 +37,8 @@ public class PredicateTests{
 		printList(stu21Plus);
 
 		System.out.println("Until M");
-		// List <Student> stuUntilM = getMatching(slist,new GetUntilM());
-		// printList(stuUntilM);
+		// List <Student> studUntilM = getMatching(slist,new GetUntilM());
+		// printList(studUntilM);
 		List <Student> stuUntilM = getMatching(slist,(s) -> {return Character.toLowerCase(s.getFirstName().charAt(0)) <= 'm';});
 			printList(stuUntilM);
 	}

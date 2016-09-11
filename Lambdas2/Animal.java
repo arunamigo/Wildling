@@ -1,20 +1,27 @@
 public class Animal {
-	
-	private String species;
-	private boolean canHop;
-	private boolean canSwim;
-	public Animal(String species, boolean canHop, boolean canSwim){
-		this.species = species;
-		this.canHop = canHop;
-		this.canSwim = canSwim;
+
+	public Animal(String name, boolean hopper, boolean swimmer, boolean hunter){
+		this.species = name;
+		this.canHop = hopper;
+		this.canSwim = swimmer;
+		this.canHunt = hunter;
+	}
+
+	public String species;
+	public boolean canHop;
+	public boolean canSwim;
+	public boolean canHunt;
+
+	public String toString(){
+		return species;
 	}
 	public boolean isHopper(){
 		return canHop;
 	}
-	public  boolean isSwimmer(){
+	public boolean isSwimmer(){
 		return canSwim;
 	}
-	public String toString(){
-		return species;
+	public boolean isHunter(){
+		return canHunt;
 	}
 }
