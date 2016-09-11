@@ -3,6 +3,7 @@ public class Comp {
 		Double d1 = new Double(Double.NaN);
 		Double d2 = new Double(Double.NaN);
 
+		double d0 = Double.NaN;
 		System.out.println(d1 == d2);
 		System.out.println(d1.equals(d2));
 
@@ -21,6 +22,10 @@ public class Comp {
 
 		System.out.println("d3 after division : " + d3 );
 		System.out.println("d4 after division : " + d4);
+		System.out.println("d3 == d3 : " + (d3 == d3));
+		System.out.println("d2 == d2 : " + (d2 == d2));
+		System.out.println("d0 == d0 : " + (d0 == d0));
+		System.out.println("d0 != d0 : " + (d0 != d0));
 		System.out.println("==================================");
 
 		System.out.println( 0 == 0.0 ); //True
