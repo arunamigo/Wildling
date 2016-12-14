@@ -13,5 +13,5 @@ public class AListBacked {
 		for (String s : a) {
 			System.out.println(s);
 		}
-	}
+		System.out.println("");
 }
